@@ -77,6 +77,7 @@
   --bs-link-hover-color: #17667f;
   --bs-code-color: #d63384;
   --bs-highlight-bg: #fbf1cd;
+ 
 }
 
 *,
@@ -1277,6 +1278,7 @@ progress {
   .col-lg-3 {
     flex: 0 0 auto;
     width: 25%;
+   
   }
   .col-lg-4 {
     flex: 0 0 auto;
@@ -11108,3 +11110,131 @@ footer.footer .social-link:hover {
   font-size: 2.25rem;
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
 }
+
+.profile-img {
+    width: 200px; /* Ajusta el tamaño aquí */
+    height: auto; /* Mantiene la proporción */
+}
+.custom-text {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 2px; /* Ajusta el tamaño a 2 píxeles */
+}
+
+.btn-custom {
+  border-radius: 25px; /* Ajusta el redondeo según prefieras */
+  background: linear-gradient(to right, #8e44ad, #3498db); /* Degradado de lila a azul */
+  color: white; /* Cambia el color del texto si es necesario */
+  border: none; /* Elimina el borde si lo deseas */
+  transition: background 0.3s; /* Añade una transición suave al cambiar el fondo */
+}
+
+.btn-custom:hover {
+  background: linear-gradient(to right, #7d3c98, #2980b9); /* Color del degradado en hover (opcional) */
+}
+/* Agrega esta regla en tu archivo CSS */
+.col-lg-3.col-md-6.mb-5.mb-lg-0 {
+  padding-bottom: 50px; /* Ajusta el valor de padding-bottom según tus necesidades */
+}
+
+/* Estilo general para el formulario */
+.formulario {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Título del formulario */
+.formulario h2 {
+  text-align: center;
+  color: #343a40;
+  margin-bottom: 1.5rem;
+}
+
+/* Estilo de los campos de entrada */
+.campo {
+  margin-bottom: 1.25rem;
+}
+
+.campo label {
+  display: block;
+  font-size: 1rem;
+  color: #343a40;
+  margin-bottom: 0.5rem;
+}
+
+.input-text {
+  width: 100%;
+  padding: 0.75rem;
+  font-size: 1rem;
+  color: #495057;
+  background-color: #ffffff;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.input-text:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+/* Estilo para el campo de mensaje */
+textarea.input-text {
+  height: 150px;
+}
+
+/* Botón de envío */
+.boton {
+  background-color: #007bff;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  font-size: 1.125rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.boton:hover {
+  background-color: #0056b3;
+}
+
+/* Alineación derecha para el botón */
+.alinear-derecha {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* Ajuste para pantallas pequeñas */
+@media (max-width: 768px) {
+  .formulario {
+      padding: 1rem;
+  }
+
+  .campo label {
+      font-size: 0.875rem;
+  }
+
+  .input-text {
+      font-size: 0.875rem;
+      padding: 0.5rem;
+  }
+
+  .boton {
+      font-size: 1rem;
+      padding: 0.5rem 1.25rem;
+  }
+}
+h2 {
+  text-align: center;
+}
+legend {
+  text-align: center; /* Centra el texto */
+  font-size: 1.5rem; /* Aumenta el tamaño de la fuente */
+  color: #800080; /* Color lila */
+}
+
